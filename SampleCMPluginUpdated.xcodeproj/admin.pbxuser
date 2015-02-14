@@ -1,0 +1,30 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 4F94F01007B3098F00AE9F13 /* SampleCMPlugin */;
+		codeSenseManager = 840B734E1A8D9A0E00B383B1 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 445487597;
+			PBXWorkspaceStateSaveDate = 445487597;
+		};
+		sourceControlManager = 840B734D1A8D9A0E00B383B1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4F94F01007B3098F00AE9F13 /* SampleCMPlugin */ = {
+		activeExec = 0;
+	};
+	840B734D1A8D9A0E00B383B1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	840B734E1A8D9A0E00B383B1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		014CEA3F0018CDD111CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		014CEA400018CDD111CA2923 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//010
+//011
+//012
+//013
+//014
+//080
+//081
+//082
+//083
+//084
+		089C1669FE841209C02AAC07 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				014CEA3F0018CDD111CA2923,
+				014CEA400018CDD111CA2923,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 089C166AFE841209C02AAC07;
+			projectDirPath = "";
+			targets = (
+				4F94F01007B3098F00AE9F13,
+			);
+		};
+		089C166AFE841209C02AAC07 = {
+			children = (
+				08FB77AFFE84173DC02AAC07,
+				089C167CFE841241C02AAC07,
+				089C1671FE841209C02AAC07,
+				19C28FB6FE9D52B211CA2CBB,
+				4F94F01B07B3098F00AE9F13,
+			);
+			isa = PBXGroup;
+			name = SampleCMPlugin;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 = {
+			children = (
+				0AA1909FFE8422F4C02AAC07,
+				60288D86009E36CE0BCA0CAD,
+				60764980009F79710BCA0CAD,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 = {
+			children = (
+				089C167DFE841241C02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167DFE841241C02AAC07 = {
+			children = (
+				089C167EFE841241C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C167EFE841241C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 = {
+			children = (
+				60288D7F009E31430BCA0CAD,
+			);
+			isa = PBXGroup;
+			name = Source;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+		0AA1909FFE8422F4C02AAC07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreFoundation.framework;
+			path = /System/Library/Frameworks/CoreFoundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//0A0
+//0A1
+//0A2
+//0A3
+//0A4
+//190
+//191
+//192
+//193
+//194
+		19C28FB6FE9D52B211CA2CBB = {
+			children = (
+				4F94F01C07B3098F00AE9F13,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+		4F94F01007B3098F00AE9F13 = {
+			buildPhases = (
+				4F94F01107B3098F00AE9F13,
+				4F94F01207B3098F00AE9F13,
+				4F94F01407B3098F00AE9F13,
+				4F94F01607B3098F00AE9F13,
+				4F94F01A07B3098F00AE9F13,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-SampleCMPlugin.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = SampleCMPlugin;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = plugin;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = SampleCMPlugin;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = SampleCMPlugin;
+			productReference = 4F94F01C07B3098F00AE9F13;
+			productType = "com.apple.product-type.bundle";
+		};
+		4F94F01107B3098F00AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94F01207B3098F00AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94F01307B3098F00AE9F13,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94F01307B3098F00AE9F13 = {
+			fileRef = 089C167DFE841241C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94F01407B3098F00AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94F01507B3098F00AE9F13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94F01507B3098F00AE9F13 = {
+			fileRef = 60288D7F009E31430BCA0CAD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94F01607B3098F00AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94F01707B3098F00AE9F13,
+				4F94F01807B3098F00AE9F13,
+				4F94F01907B3098F00AE9F13,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94F01707B3098F00AE9F13 = {
+			fileRef = 0AA1909FFE8422F4C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94F01807B3098F00AE9F13 = {
+			fileRef = 60288D86009E36CE0BCA0CAD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94F01907B3098F00AE9F13 = {
+			fileRef = 60764980009F79710BCA0CAD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94F01A07B3098F00AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94F01B07B3098F00AE9F13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "Info-SampleCMPlugin.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F94F01C07B3098F00AE9F13 = {
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = SampleCMPlugin.plugin;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+//600
+//601
+//602
+//603
+//604
+		60288D7F009E31430BCA0CAD = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			path = SampleCMPlugin.c;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		60288D86009E36CE0BCA0CAD = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ApplicationServices.framework;
+			path = /System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		60764980009F79710BCA0CAD = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+	};
+	rootObject = 089C1669FE841209C02AAC07;
+}
